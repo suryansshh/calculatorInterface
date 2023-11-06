@@ -1,0 +1,110 @@
+body {
+  background: rgb(0, 172, 254);
+  background: linear-gradient(90deg, rgba(0, 172, 254, 1) 0%, rgba(1, 254, 112, 1) 100%);
+}
+
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #f3f3f3;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px #888;
+  text-align: right;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  margin-top: 200px;
+}
+
+.display {
+  font-size: 24px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+  min-height: 170px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.buttons button {
+  font-size: 18px;
+  padding: 10px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  background-color: #5d5d5dfd;
+  color: white;
+}
+
+.memory {
+  min-height: 100px;
+  max-height: 100px;
+  border: none;
+  border-radius: 5px;
+  padding-top: 0px;
+  margin-bottom: 10px;
+}
+
+.memory ul {
+  list-style: none;
+  padding: 0;
+}
+
+.memory li {
+  font-size: 16px;
+}
+
+.top-bar {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.top-bar button {
+  border: none;
+  background-color: transparent;
+  padding-left: 20px;
+  padding-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #172d67;
+  color: #fff;
+}
+
+.dark-mode-btn {
+  color: white;
+}
+
+
+.button-dark-mode {
+  background-color: #070b26;
+  color: #fff;
+}
+
+.opr-dark-mode {
+  color: #fff;
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
+
+.purple{
+  color: #4461ae;
+}
